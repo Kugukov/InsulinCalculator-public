@@ -1,6 +1,6 @@
 # 📱 "Insulin Calculator" — A Mobile Application for Insulin Dose Tracking and Calculation
 
-Welcome! This is my pet project — an Android application for people who need a simple mobile tool to calculate recommended insulin doses, track bolus and basal injections, record blood glucose readings, and keep diabetes-related reference information in one place.
+Welcome! This is my pet project — an Android application for people who need a simple mobile tool to calculate recommended insulin doses, track bolus and basal injections and record blood glucose readings in one place.
 
 The application is designed as a personal assistant for day-to-day diabetes self-management. It helps users calculate a suggested bolus dose based on bread units (XE), current blood glucose, and an individual profile with insulin-to-carb ratio, insulin sensitivity factor, target glucose, and insulin activity duration.
 
@@ -14,7 +14,6 @@ The project combines:
 - Blood glucose history and visual trends
 - Multiple personal profiles with individual calculation parameters
 - Local storage of insulin and glucose history
-- Multilingual educational help articles about diabetes, bolus insulin, and hypoglycemia
 - Reminder notifications for insulin timing
 
 ## 🛠 Technologies
@@ -33,21 +32,17 @@ The project combines:
 
 ## 📲 Screenshots (Demo)
 
-<!--
-Add screenshots to the `screenshots/` directory and uncomment this section when they are available.
-
-<img src="screenshots/MainScreen.jpg" height="400"/>
-<img src="screenshots/BolusCalculator.jpg" height="400"/>
-<img src="screenshots/History.jpg" height="400"/>
-<img src="screenshots/Settings.jpg" height="400"/>
--->
+<img src="Screenshots/main_screen.png" height="400"/>
+<img src="Screenshots/bolus_screen.png" height="400"/>
+<img src="Screenshots/basal_screen.png" height="400"/>
+<img src="Screenshots/bolus_history_screen.png" height="400"/>
+<img src="Screenshots/glucose_screen.png" height="400"/>
 
 ## 🔧 Main Features
 
 * 💉 Calculate recommended bolus insulin doses
 * 🍞 Use bread units (XE), insulin-to-carb ratio (ICR), insulin sensitivity factor (ISF), and target blood glucose in calculations
 * 🧮 Separate meal bolus and correction bolus values
-* ✅ Confirm and save bolus injection records
 * ⏱ Track active bolus and basal insulin
 * 📊 Add, view, and delete blood glucose readings
 * 📈 Display glucose history with a chart
@@ -55,8 +50,6 @@ Add screenshots to the `screenshots/` directory and uncomment this section when 
 * 🕒 Filter bolus and basal history by today, week, all time, or custom period
 * 🔔 Schedule insulin reminder notifications
 * 🌐 Switch between Russian, English, and Kazakh languages
-* 📚 Read built-in educational articles about diabetes care basics
-* 🌗 Support light and dark themes
 
 ## Current Limitations
 
@@ -115,8 +108,6 @@ Add screenshots to the `screenshots/` directory and uncomment this section when 
 * Add backup and restore functionality
 * Implement optional cloud synchronization between devices
 * Add integration with glucose meters, CGMs, or insulin pump data sources
-* Improve active insulin calculations with a more advanced insulin action curve
-* Add export of history as CSV or PDF for doctor visits
 * Add onboarding with safety instructions and calculator setup guidance
 * Expand educational articles and add more localized medical content
 * Add automated UI tests and more unit tests for dose calculation logic
