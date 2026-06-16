@@ -30,13 +30,14 @@ The project combines:
 * Room database
 * Local entities for bolus records, basal records, glucose readings, and user profiles
 
-## 📲 Screenshots (Demo)
-
+## 📲 Screenshots 
+<div style="display: flex; gap: 10px;">
 <img src="Screenshots/main_screen.png" height="400"/>
 <img src="Screenshots/bolus_screen.png" height="400"/>
 <img src="Screenshots/basal_screen.png" height="400"/>
 <img src="Screenshots/bolus_history_screen.png" height="400"/>
 <img src="Screenshots/glucose_screen.png" height="400"/>
+</div>
 
 ## 🔧 Main Features
 
