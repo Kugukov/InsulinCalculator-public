@@ -1,6 +1,6 @@
 # 📱 "Insulin Calculator" — A Mobile Application for Insulin Dose Tracking and Calculation
 
-Welcome! This is my pet project — an Android application for people who need a simple mobile tool to calculate recommended insulin doses, track bolus and basal injections and record blood glucose readings in one place.
+Welcome! This Android application for people who need a simple mobile tool to calculate recommended insulin doses, track bolus and basal injections and record blood glucose readings in one place.
 
 The application is designed as a personal assistant for day-to-day diabetes self-management. It helps users calculate a suggested bolus dose based on bread units (XE), current blood glucose, and an individual profile with insulin-to-carb ratio, insulin sensitivity factor, target glucose, and insulin activity duration.
 
